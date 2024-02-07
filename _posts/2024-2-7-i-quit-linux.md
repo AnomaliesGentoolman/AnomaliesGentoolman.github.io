@@ -20,7 +20,9 @@ I don't wanted to delete linux but i was really confused about that and removed 
 
 I will get back onto linux sometime but not right now and not as a Main OS.
 
-Can you guys just tell me what Linux Distro is better? if you do just add a issue about that to here: https://github.com/WH0LEWHALE/WH0LEWHALE/issues
+Can you guys just tell me what Linux Distro is better? if you do just add a issue about that to here:
+
+https://github.com/WH0LEWHALE/WH0LEWHALE/issues
 
 ---
 
