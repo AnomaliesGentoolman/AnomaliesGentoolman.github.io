@@ -1,4 +1,3 @@
-<link rel="icon" href="https://avatars.githubusercontent.com/u/146978592">
 ---
 layout: post
 title: Compiled Terraria And TModloader Source Code with Goldberg
