@@ -1,7 +1,7 @@
 <link rel="icon" href="https://avatars.githubusercontent.com/u/146978592">
 ---
 layout: post
-title: Terraria And TModloader Source Code
+title: Compiled Terraria And TModloader Source Code with Goldberg
 description: Compiled Terraria and Tmodloader with Goldberg Steam Emulator
 tags: terraria tmodloader goldberg
 ---
