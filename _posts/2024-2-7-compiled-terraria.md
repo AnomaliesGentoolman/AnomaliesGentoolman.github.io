@@ -63,7 +63,7 @@ https://gitlab.com/Mr_Goldberg/goldberg_emulator/
 
 
 And then i just did these steps in order to implement the Goldberg Steam Emulator,
-(you can just change the name of the original steam_api.dll to steam_api_orig.dll for backup)
+(you can just change the name of the original steam_api.dll to steam_api_orig.dll for backup if you want.)
 
 Replace the steam_api.dll in ``"\Steam\steamapps\common\Terraria"`` directory.
 
