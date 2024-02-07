@@ -1,9 +1,12 @@
 ---
 layout: post
-title: Compiled TModloader and Terraria with Goldberg Emulator
+description: Compiled Terraria and Tmodloader with Goldberg Steam Emulator
+tags: terraria tmodloader goldberg
 ---
 
 Yeah this is right, i compiled terraria and tmodloader with Goldberg Steam Emulator (which is open-source) and now the game is actually pirated now.
+
+I just made a tutorial down here, you can check it out if you interested :D
 
 
 I just have terraria legally, i was bought it from steam but i was just curious about can i compile the tmodloader and terraria source code with goldberg?
@@ -18,8 +21,7 @@ I just installed the Terraria from steam and just get the TModloader source code
 I did ``git clone https://github.com/WH0LEWHALE/tModLoader`` and cloned the repository.
 
 
-Then i installed .NET 6.0 SDK and XNA Framework 4.0 in the Terraria game directory in order to compile and run the TModloader.
-
+Then i installed .NET 6.0 SDK(https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and XNA Framework 4.0 in the Terraria game directory in order to compile and run the TModloader.
 
 The fact that TModloader has Terraria source code in it, it was awesome.
 
@@ -39,7 +41,7 @@ Now then i just clicked **Setup** button and its Done.
 We have terraria and tmodloader source code right now, I just clicked **"TModloader.sln"** from **``tModLoader\solutions``** (You can enter **Terraria.sln** or other one too but i just wanted terraria with tmodloader).
 
 
-And boom here we have a full source code and even i can run it,
+And boom here we have a full source code and even i can run it with Visual Studio 2022,
 
 ![mega-archive](../images/terraria-post/Annotation%202024-02-07%20132240.png)
 
@@ -51,30 +53,33 @@ Yeah it works but its a bit hard but i will explain with the easiest way.
 You need change some .dll's from the game and source code directory.
 
 
-Get the goldberg emulator .dll's from here: https://github.com/WH0LEWHALE/goldberg-emu/releases/tag/release
+Get the goldberg emulator .dll's from here: 
 
+https://github.com/WH0LEWHALE/goldberg-emu/releases/tag/release
 
-or you can get from the original repository: https://gitlab.com/Mr_Goldberg/goldberg_emulator/
+or you can get from the original repository: 
+
+https://gitlab.com/Mr_Goldberg/goldberg_emulator/
 
 
 And then i just did these steps in order to implement the Goldberg Steam Emulator,
 (you can just change the name of the original steam_api.dll to steam_api_orig.dll for backup)
 
-Replace the steam_api.dll in the ``"\Steam\steamapps\common\Terraria"`` directory.
+Replace the steam_api.dll in ``"\Steam\steamapps\common\Terraria"`` directory.
 
-Replace the steam_api.dll in the source code ``\tModLoader\ExampleMod\bin\Release\net6.0\Libraries\Native\Windows`` directory.
+Replace the steam_api.dll in source code ``\tModLoader\ExampleMod\bin\Release\net6.0\Libraries\Native\Windows`` directory.
 
-Replace the steam_api.dll in the source code ``\tModLoader\src\tModLoader\Terraria\bin\Release\net6.0\Libraries\Native\Windows`` directory.
+Replace the steam_api.dll in source code ``\tModLoader\src\tModLoader\Terraria\bin\Release\net6.0\Libraries\Native\Windows`` directory.
 
-Replace the steam_api.dll in the source code ``\tModLoader\src\tModLoader\Terraria\Libraries\Native\Windows`` directory.
+Replace the steam_api.dll in source code ``\tModLoader\src\tModLoader\Terraria\Libraries\Native\Windows`` directory.
 
-Replace the steam_api.dll in the source code ``\tModLoader\test\bin\Release\net6.0\Libraries\Native\Windows`` directory.
+Replace the steam_api.dll in source code ``\tModLoader\test\bin\Release\net6.0\Libraries\Native\Windows`` directory.
 
-Replace the steam_api.dll in the source code ``\tModLoader\src\TerrariaNetCore\Terraria\Libraries\Native\Windows`` directory.
+Replace the steam_api.dll in source code ``\tModLoader\src\TerrariaNetCore\Terraria\Libraries\Native\Windows`` directory.
 
-Replace the steam_api.dll in the source code ``\tModLoader\patches\TerrariaNetCore\Terraria\Libraries\Native\Windows`` directory.
+Replace the steam_api.dll in source code ``\tModLoader\patches\TerrariaNetCore\Terraria\Libraries\Native\Windows`` directory.
 
-And now you need to add some // to some code lines,
+And now you need to add some // (comment syntax) to some code lines,
 
 **InstallVerifier.cs, Line 198**
 
@@ -86,7 +91,7 @@ if (!HashMatchesFile(steamAPIPath, steamAPIHash)) {
 }
 ```
 
-to
+TO
 
 
 ```
@@ -105,7 +110,7 @@ case TerrariaSteamClient.LaunchResult.ErrInstallOutOfDate:
 	break;
 ```
 
-to
+TO
 
 
 ```
@@ -127,7 +132,7 @@ if (!File.Exists(Path.Combine(vanillaContentFolder, "Images", "Projectile_981.xn
 }
 ```
 
-to
+TO
 
 
 ```
