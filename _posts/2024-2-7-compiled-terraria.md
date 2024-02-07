@@ -140,5 +140,13 @@ if (!File.Exists(Path.Combine(vanillaContentFolder, "Images", "Projectile_981.xn
 //	 ErrorReporting.FatalExit(Language.GetTextValue("tModLoader.TerrariaOutOfDateMessage"));
 }
 ```
+
+Okay, we are not done yet, the last thing is that you need to Copy the Content folder from "\Steam\steamapps\common\Terraria\Content" to "\Steam\steamapps\common\tModLoaderDev".
+
+
 ---
- Okay, we are not done yet, the last thing is that you need to Copy the Content folder from "\Steam\steamapps\common\Terraria\Content" to "\Steam\steamapps\common\tModLoaderDev".
+
+
+Thanks for reading my first post, hope you guys enjoyed :)
+
+
