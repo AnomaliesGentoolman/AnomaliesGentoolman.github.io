@@ -15,70 +15,62 @@ And yeah it worked i will cover how did i did it in this post.
 
 ---
 
+I just installed the Terraria from steam and get the TModloader source code from github but i needed to fork the TModloader repository before cloning.
 
-I just installed the Terraria from steam and just get the TModloader source code from github, i needed to fork the TModloader repository before cloning.
 
-
-I did ``git clone https://github.com/WH0LEWHALE/tModLoader`` and cloned the repository.
+I did  `git clone https://github.com/WH0LEWHALE/tModLoader`  and cloned the repository.
 
 
 Then i installed .NET 6.0 SDK(https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and XNA Framework 4.0 in the Terraria game directory in order to compile and run the TModloader.
 
 The fact that TModloader has Terraria source code in it, it was awesome.
 
-
 Okay so, when i cloned the repository i launched **setup.bat**.
-
 
 A Terminal popped up and installed some dependencies well hey there we go!
 
 
 <img src="../images/terraria-post/Annotation%202024-02-07%20131135.png" width="420" height="400">
 
-
 Now then i just clicked **Setup** button and its Done.
 
-
-We have terraria and tmodloader source code right now, I just clicked **"TModloader.sln"** from **``tModLoader\solutions``** (You can enter **Terraria.sln** or other one too but i just wanted terraria with tmodloader).
-
+We have terraria and tmodloader source code right now, I just clicked **"TModloader.sln"** from *`tModLoader\solutions`*
 
 And boom here we have a full source code and even i can run it with Visual Studio 2022,
 
 ![mega-archive](../images/terraria-post/Annotation%202024-02-07%20132240.png)
 
-But there is a problem and thats our topic, i need to open steam in order to run the tmodloader, but what if i put Goldberg Steam Emulator .dll's? does it work?
-
+But there is a problem and thats our topic, i need to open steam in order to run the tmodloader, but what if i put Goldberg Steam Emulator api .dll's? does it work?
 
 Yeah it works but its a bit hard but i will explain with the easiest way.
 
 You need change some .dll's from the game and source code directory.
 
-
 Get the goldberg emulator .dll's from here: 
 
-https://github.com/WH0LEWHALE/goldberg-emu/releases/tag/release
+**[](https://github.com/WH0LEWHALE/goldberg-emu/releases/tag/release)**
 
 or you can get from the original repository: 
 
-https://gitlab.com/Mr_Goldberg/goldberg_emulator/
-
+**[](https://gitlab.com/Mr_Goldberg/goldberg_emulator/)**
 
 And then i just did these steps in order to implement the Goldberg Steam Emulator,
-(you can just change the name of the original steam_api.dll to steam_api_orig.dll for backup if you want.)
 
-Replace the steam_api.dll in ``"\Steam\steamapps\common\Terraria"`` directory.
+(you can change the name of the original steam_api dlls for backup.)
 
-Replace the steam_api.dll in source code ``\tModLoader\ExampleMod\bin\Release\net6.0\Libraries\Native\Windows`` directory.
+Replace the steam_api.dll in *``"\Steam\steamapps\common\Terraria"``* directory.
 
-Replace the steam_api.dll in source code ``\tModLoader\src\tModLoader\Terraria\bin\Release\net6.0\Libraries\Native\Windows`` directory.
+Replace the steam_api64.dll in source folder *``\tModLoader\ExampleMod\bin\Release\net6.0\Libraries\Native\Windows``* directory.
 
-Replace the steam_api.dll in source code ``\tModLoader\src\tModLoader\Terraria\Libraries\Native\Windows`` directory.
+Replace the steam_api64.dll in source folder *``\tModLoader\src\tModLoader\Terraria\bin\Release\net6.0\Libraries\Native\Windows``* directory.
 
-Replace the steam_api.dll in source code ``\tModLoader\test\bin\Release\net6.0\Libraries\Native\Windows`` directory.
+Replace the steam_api64.dll in source folder *``\tModLoader\src\tModLoader\Terraria\Libraries\Native\Windows``* directory.
 
-Replace the steam_api.dll in source code ``\tModLoader\src\TerrariaNetCore\Terraria\Libraries\Native\Windows`` directory.
+Replace the steam_api64.dll in source folder *``\tModLoader\test\bin\Release\net6.0\Libraries\Native\Windows``* directory.
 
-Replace the steam_api.dll in source code ``\tModLoader\patches\TerrariaNetCore\Terraria\Libraries\Native\Windows`` directory.
+Replace the steam_api64.dll in source folder *``\tModLoader\src\TerrariaNetCore\Terraria\Libraries\Native\Windows``* directory.
+
+Replace the steam_api64.dll in source folder *``\tModLoader\patches\TerrariaNetCore\Terraria\Libraries\Native\Windows``* directory.
 
 And now you need to add some // (comment syntax) to some code lines,
 
@@ -92,7 +84,7 @@ if (!HashMatchesFile(steamAPIPath, steamAPIHash)) {
 }
 ```
 
-TO
+*TO*
 
 
 ```
@@ -111,7 +103,7 @@ case TerrariaSteamClient.LaunchResult.ErrInstallOutOfDate:
 	break;
 ```
 
-TO
+*TO*
 
 
 ```
@@ -133,7 +125,7 @@ if (!File.Exists(Path.Combine(vanillaContentFolder, "Images", "Projectile_981.xn
 }
 ```
 
-TO
+*TO*
 
 
 ```
@@ -147,8 +139,7 @@ if (!File.Exists(Path.Combine(vanillaContentFolder, "Images", "Projectile_981.xn
 }
 ```
 
-Okay, we are not done yet, the last thing is that you need to Copy the Content folder from "\Steam\steamapps\common\Terraria\Content" to "\Steam\steamapps\common\tModLoaderDev".
-
+Okay, we are not done yet, the last thing is that you need to Copy the **"Content"** folder from **"\Steam\steamapps\common\Terraria\Content"** to **"\Steam\steamapps\common\tModLoaderDev"**.
 
 ---
 
