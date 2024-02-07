@@ -21,7 +21,7 @@ I just installed the Terraria from steam and get the TModloader source code from
 I did  `git clone https://github.com/WH0LEWHALE/tModLoader`  and cloned the repository.
 
 
-Then i installed .NET 6.0 SDK(https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and XNA Framework 4.0 in the Terraria game directory in order to compile and run the TModloader.
+Then i installed .NET 6.0 SDK[](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and XNA Framework 4.0 in the Terraria game directory in order to compile and run the TModloader.
 
 The fact that TModloader has Terraria source code in it, it was awesome.
 
@@ -139,7 +139,15 @@ if (!File.Exists(Path.Combine(vanillaContentFolder, "Images", "Projectile_981.xn
 }
 ```
 
-Okay, we are not done yet, the last thing is that you need to Copy the **"Content"** folder from **"\Steam\steamapps\common\Terraria\Content"** to **"\Steam\steamapps\common\tModLoaderDev"**.
+Okay, we are not done yet, the last thing is that you need to Copy the *"Content"* folder from 
+
+**\Steam\steamapps\common\Terraria\Content**
+
+*TO* 
+
+**\Steam\steamapps\common\tModLoaderDev**
+
+We done right now, if you did this all and it worked then you completed.
 
 ---
 
