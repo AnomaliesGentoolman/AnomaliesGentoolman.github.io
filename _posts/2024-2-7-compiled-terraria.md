@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Terraria And TModloader Source Code
 description: Compiled Terraria and Tmodloader with Goldberg Steam Emulator
 tags: terraria tmodloader goldberg
 ---
