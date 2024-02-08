@@ -26,4 +26,4 @@ https://github.com/WH0LEWHALE/WH0LEWHALE/issues
 
 ---
 
-Thanks for reading post, hope you guys enjoyed :)
+Thanks for reading, hope you guys enjoyed :)
