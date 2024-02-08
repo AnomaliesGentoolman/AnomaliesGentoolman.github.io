@@ -42,7 +42,7 @@ And boom here we have a full source code and even i can run it with Visual Studi
 
 But there is a problem and thats our topic, i need to open steam in order to run the tmodloader, but what if i put Goldberg Steam Emulator api .dll's? does it work?
 
-Yeah it works but its a bit hard but i will explain with the easiest way.
+Yeah it works, i will explain with the easiest way.
 
 You need change some .dll's from the game and source code directory.
 
