@@ -21,7 +21,7 @@ I just installed the Terraria from steam and get the TModloader source code from
 I did  `git clone https://github.com/WH0LEWHALE/tModLoader`  and cloned the repository.
 
 
-Then i installed .NET 6.0 SDK[](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) and XNA Framework 4.0 in the Terraria game directory in order to compile and run the TModloader.
+Then i installed .NET 6.0 SDK <https://dotnet.microsoft.com/en-us/download/dotnet/6.0> and XNA Framework 4.0 in the Terraria game directory in order to compile and run the TModloader.
 
 The fact that TModloader has Terraria source code in it, it was awesome.
 
@@ -48,11 +48,11 @@ You need change some .dll's from the game and source code directory.
 
 Get the goldberg emulator .dll's from here: 
 
-**[](https://github.com/WH0LEWHALE/goldberg-emu/releases/tag/release)**
+**<https://github.com/WH0LEWHALE/goldberg-emu/releases/tag/release>**
 
 or you can get from the original repository: 
 
-**[](https://gitlab.com/Mr_Goldberg/goldberg_emulator/)**
+**<https://gitlab.com/Mr_Goldberg/goldberg_emulator/>**
 
 And then i just did these steps in order to implement the Goldberg Steam Emulator,
 
