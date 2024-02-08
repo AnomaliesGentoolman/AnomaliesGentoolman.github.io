@@ -147,7 +147,7 @@ Okay, we are not done yet, the last thing is that you need to Copy the *"Content
 
 **\Steam\steamapps\common\tModLoaderDev**
 
-We done right now, if you did this all and it worked then you completed.
+Well done, Now you can open the game without steam!
 
 ---
 
