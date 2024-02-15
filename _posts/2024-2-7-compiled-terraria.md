@@ -58,7 +58,7 @@ And then i just did these steps in order to implement the Goldberg Steam Emulato
 
 (you can change the name of the original steam_api dlls for backup.)
 
-Replace the steam_api.dll in *``"\Steam\steamapps\common\Terraria"``* directory.
+Replace the steam_api.dll in *``\Steam\steamapps\common\Terraria``* directory.
 
 Replace the steam_api64.dll in source folder *``\tModLoader\ExampleMod\bin\Release\net6.0\Libraries\Native\Windows``* directory.
 
