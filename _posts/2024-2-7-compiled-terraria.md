@@ -149,6 +149,8 @@ Okay, we are not done yet, the last thing is that you need to Copy the *"Content
 
 Well done, Now you can open the game without steam!
 
+Also, i am publishing these posts as a gist too.
+
 ---
 
 
