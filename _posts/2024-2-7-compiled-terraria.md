@@ -1,6 +1,7 @@
 ---
 layout: post
-title: About GTA V Source Code
+title: Compiled Terraria And TModloader Source Code with Goldberg
+description: Compiled Terraria and Tmodloader with Goldberg Steam Emulator
 tags: terraria tmodloader goldberg
 ---
 
