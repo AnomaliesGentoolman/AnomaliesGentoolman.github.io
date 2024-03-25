@@ -5,7 +5,7 @@ tags: gta gta5 gtav
 ---
 
 In this post, i will talk about Grand Theft V Source Code.
-If you want the tutorial and the source code, check out this repository: https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide
+If you want the tutorial and the source code, check out this repository: [https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide)
 
 ---
 
@@ -40,9 +40,9 @@ Here is the all the tools that you need.
 **This guy that finished the debug build that compiled by himself, he has 60+ hours playtime on his own compiled GTA 5.<br>
 Here is all the video links that guy played and finished the whole game with debug build:**
 
-https://www.youtube.com/watch?v=bndLvZIuXHg<br>
-https://www.youtube.com/watch?v=Nlp60Xhkgbk<br>
-https://www.youtube.com/watch?v=QQS0-32voms
+[https://www.youtube.com/watch?v=bndLvZIuXHg](https://www.youtube.com/watch?v=bndLvZIuXHg)<br>
+[https://www.youtube.com/watch?v=Nlp60Xhkgbk](https://www.youtube.com/watch?v=Nlp60Xhkgbk)<br>
+[https://www.youtube.com/watch?v=QQS0-32voms](https://www.youtube.com/watch?v=QQS0-32voms)
 
 *Not gonna lie this guy looks like Matt Stonie XD*
 
@@ -50,15 +50,15 @@ https://www.youtube.com/watch?v=QQS0-32voms
 
 **Nothing to say about it, This video covers the debug menu and stuff.**
 
-https://www.youtube.com/watch?v=TPWWho1cW2Y
+[https://www.youtube.com/watch?v=TPWWho1cW2Y](https://www.youtube.com/watch?v=TPWWho1cW2Y)
 
 ### My Videos
 
 **I recorded some stuff, here you can check out:**
 
-https://www.youtube.com/watch?v=-RHmcVH4bGQ<br>
-https://www.youtube.com/watch?v=I37ZHqyX8Cs<br>
-https://www.youtube.com/watch?v=RswuDm-ZPWs
+[https://www.youtube.com/watch?v=-RHmcVH4bGQ](https://www.youtube.com/watch?v=-RHmcVH4bGQ)<br>
+[https://www.youtube.com/watch?v=I37ZHqyX8Cs](https://www.youtube.com/watch?v=I37ZHqyX8Cs)<br>
+[https://www.youtube.com/watch?v=RswuDm-ZPWs](https://www.youtube.com/watch?v=RswuDm-ZPWs)
 
 **And you can search the web for more videos.**
 
