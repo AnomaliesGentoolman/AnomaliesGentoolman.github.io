@@ -76,7 +76,7 @@ When i first see this type of shit on Telegram, i ignored it because i dont thin
 But after some time i've seen a video about the leaked source code, and that guy was posted a tutorial, i ignored again but after the time has come, i readed the tutorial that made in rentry.co, a pastebin-copy site.<br>
 I created a virtual virtual machine and installed every dependencies, Virtual Machine crashed 5+ times, after some getting some hysterics, i finally compiled the game and ready to open. I opened the game and it gave me unknown symbol error...<br>
 AND I GOT ANOTHER HYSTERICS! but after i realized it was the rpf encrypt problem, i dragged modified update.rpf and update2.rpf to the ArchiveFix.exe and the game worked.<br>
-I put all the game files to my Real PC and tesed it<br>
+I put all the game files to my Real PC and tested it<br>
 I played the game for like 1 hours and it was really good and okay.<br>
 I didn't compiled the game on Debug, i compiled this game in BankRelease because i need performance. The game runs like real GTA5(because its real XD)<br>
 It was not easy but atleast its a good thing, it was easier than compiling CS:GO Source Code.
