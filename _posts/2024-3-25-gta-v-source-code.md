@@ -83,10 +83,10 @@ It was not easy but atleast its a good thing, but it was easier than compiling C
 **You can see some screenshots at the bottom about the game.**
 
 #### Screenshots
-![image](https://github.com/yungDoom/gtav-sourcecode-build-guide/assets/146978592/bbda2dd9-eb61-482b-a55b-02496440b643)
-![image](https://github.com/yungDoom/gtav-sourcecode-build-guide/assets/146978592/6441d5d0-6393-41a1-80c1-f1afe8b03119)
-![image](https://github.com/yungDoom/gtav-sourcecode-build-guide/assets/146978592/c17a2097-13db-49e0-ba4d-b86cec4c74bc)
-![image](https://github.com/yungDoom/gtav-sourcecode-build-guide/assets/146978592/d4ad19d4-b1ce-49f8-a653-b16b70227c93)
+![image](https://github.com/P0L3NARUBA/gtav-sourcecode-build-guideassets/146978592/bbda2dd9-eb61-482b-a55b-02496440b643)
+![image](https://github.com/P0L3NARUBA/gtav-sourcecode-build-guideassets/146978592/6441d5d0-6393-41a1-80c1-f1afe8b03119)
+![image](https://github.com/P0L3NARUBA/gtav-sourcecode-build-guideassets/146978592/c17a2097-13db-49e0-ba4d-b86cec4c74bc)
+![image](https://github.com/P0L3NARUBA/gtav-sourcecode-build-guideassets/146978592/d4ad19d4-b1ce-49f8-a653-b16b70227c93)
 
 # Epilogue
 
