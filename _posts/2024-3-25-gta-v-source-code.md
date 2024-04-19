@@ -5,29 +5,29 @@ tags: gta gta5 gtav
 ---
 
 In this post, i will talk about Grand Theft V Source Code.
-If you want the tutorial and the source code, check out this repository: [https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide)
+If you want the tutorial and the source code, check out this repository: [https://github.com/yungDoom/gtav-sourcecode-build-guide](https://github.com/yungDoom/gtav-sourcecode-build-guide)
 
 ---
 
 # Where this first appeared
 
 All leaks started with this image:<br><br>
-<img src="https://github.com/WH0LEWHALE/WH0LEWHALE.github.io/assets/146978592/69f05d2b-65a7-4344-985f-79a8c6cee96d" width="420" height="400">
+<img src="https://github.com/yungDoom/yungDoom.github.io/assets/146978592/69f05d2b-65a7-4344-985f-79a8c6cee96d" width="420" height="400">
 
 By the way, its an image from gta5\scripts\ folder. Everybody thinked that is the source code but no its just the scripts folder.<br>
 The real source code root looks like this:<br>
-![image](https://github.com/WH0LEWHALE/WH0LEWHALE.github.io/assets/146978592/0b44bf4c-596a-44e8-b6c0-51f4947cda87)<br>
+![image](https://github.com/yungDoom/yungDoom.github.io/assets/146978592/0b44bf4c-596a-44e8-b6c0-51f4947cda87)<br>
 *Ignore "titleupdate", i compiled the game, game scripts and shaders so thats why its here.*
 
 # Directories
 
 ### src\dev_ng\ Directory:
-![image](https://github.com/WH0LEWHALE/WH0LEWHALE.github.io/assets/146978592/506402e3-a700-4642-a6bf-b438704dfec8)
+![image](https://github.com/yungDoom/yungDoom.github.io/assets/146978592/506402e3-a700-4642-a6bf-b438704dfec8)
 
 Here it is, all the game and engine source code!
 
 ### tools_ng Directory:
-![image](https://github.com/WH0LEWHALE/WH0LEWHALE.github.io/assets/146978592/de1163c4-76fd-4e12-aeb9-4e7400345bc2)
+![image](https://github.com/yungDoom/yungDoom.github.io/assets/146978592/de1163c4-76fd-4e12-aeb9-4e7400345bc2)
 
 Here is the all the tools that you need. 
 
@@ -83,10 +83,10 @@ It was not easy but atleast its a good thing, but it was easier than compiling C
 **You can see some screenshots at the bottom about the game.**
 
 #### Screenshots
-![image](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/bbda2dd9-eb61-482b-a55b-02496440b643)
-![image](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/6441d5d0-6393-41a1-80c1-f1afe8b03119)
-![image](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/c17a2097-13db-49e0-ba4d-b86cec4c74bc)
-![image](https://github.com/WH0LEWHALE/gtav-sourcecode-build-guide/assets/146978592/d4ad19d4-b1ce-49f8-a653-b16b70227c93)
+![image](https://github.com/yungDoom/gtav-sourcecode-build-guide/assets/146978592/bbda2dd9-eb61-482b-a55b-02496440b643)
+![image](https://github.com/yungDoom/gtav-sourcecode-build-guide/assets/146978592/6441d5d0-6393-41a1-80c1-f1afe8b03119)
+![image](https://github.com/yungDoom/gtav-sourcecode-build-guide/assets/146978592/c17a2097-13db-49e0-ba4d-b86cec4c74bc)
+![image](https://github.com/yungDoom/gtav-sourcecode-build-guide/assets/146978592/d4ad19d4-b1ce-49f8-a653-b16b70227c93)
 
 # Epilogue
 
