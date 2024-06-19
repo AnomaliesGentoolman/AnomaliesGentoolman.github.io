@@ -5,7 +5,7 @@ tags: gta gta5 gtav
 ---
 
 In this post, i will talk about Grand Theft V Source Code.
-If you want the tutorial and the source code, check out this repository: [https://github.com/yungDoom/gtav-sourcecode-build-guide](https://github.com/yungDoom/gtav-sourcecode-build-guide)
+If you want the tutorial and the source code, check out this repository: [https://github.com/yungDoom/gtav-source-code-build-guide](https://github.com/yungDoom/gtav-source-code-build-guide)
 
 ---
 
@@ -79,14 +79,6 @@ I played the game for like 1 hours and it was really good and okay.
 I didn't compiled the game on Debug, i compiled this game in BankRelease because i need performance. The game runs like real GTA5(because its real XD)
 
 It was not easy but atleast its a good thing, but it was easier than compiling CS:GO Source Code.
-
-**You can see some screenshots at the bottom about the game.**
-
-#### Screenshots
-![image](https://github.com/P0L3NARUBA/gtav-sourcecode-build-guide/assets/146978592/bbda2dd9-eb61-482b-a55b-02496440b643)
-![image](https://github.com/P0L3NARUBA/gtav-sourcecode-build-guide/assets/146978592/6441d5d0-6393-41a1-80c1-f1afe8b03119)
-![image](https://github.com/P0L3NARUBA/gtav-sourcecode-build-guide/assets/146978592/c17a2097-13db-49e0-ba4d-b86cec4c74bc)
-![image](https://github.com/P0L3NARUBA/gtav-sourcecode-build-guide/assets/146978592/d4ad19d4-b1ce-49f8-a653-b16b70227c93)
 
 # Epilogue
 
